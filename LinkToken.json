@@ -1,18 +1,45 @@
-{
-  "id": "link",
-  "name": "Link",
-  "edition": "homebrew",
-  "image": [
-    "https://raw.githubusercontent.com/LinkUmbro/BoTCHomebrew/main/LinkOutsider.png"
-  ],
-  "team": "townsfolk",
-  "firstNight": 0,
-  "firstNightReminder": "",
-  "otherNight": 0,
-  "otherNightReminder": "",
-  "reminders": [],
-  "remindersGlobal": [],
-  "setup": false,
-  "ability": "Only a true evil can nominate and execute this good boy.",
-  "jinxes": []
-}
+[
+  {
+    "id": "_meta",
+    "name": "Link"
+  },
+  {
+    "id": "edvatd_Link",
+    "name": "Link",
+    "ability": "Only a true evil can actually nominate and execute this good boy.",
+    "team": "townsfolk",
+    "firstNight": 71,
+    "otherNight": 85,
+    "setup": false,
+    "image": [
+      "https://github.com/LinkUmbro/BoTCHomebrew/blob/main/LinkOutsider.png",
+      "https://github.com/LinkUmbro/BoTCHomebrew/blob/main/LinkOutsider.png"
+    ]
+  },
+  {
+    "id": "_tokenCrafter",
+    "version": 1,
+    "customizations": {
+      "__BOTC_TOKENCRAFTER_ALL_TOKENS__": {
+        "tokenMargin": 0,
+        "tokenBleed": false,
+        "characterTokenAbilityTextHyphenation": true,
+        "characterTokenAbilityTextLetterspacing": 0,
+        "characterTokenAbilityTextPadding": 0,
+        "characterTokenAbilityTextSize": 0,
+        "characterTokenBackgroundImage": "/tokens/character_bg1.png",
+        "characterTokenIconPosition": [
+          0,
+          0
+        ],
+        "characterTokenIconScale": 0,
+        "characterTokenNameTextLetterSpacing": 0,
+        "characterTokenNameTextOutlineOpacity": 0,
+        "characterTokenNameTextOutlineWidth": 0,
+        "characterTokenNameTextRadius": 0,
+        "characterTokenNameTextSize": 0,
+        "characterTokenMarksScale": 0
+      }
+    }
+  }
+]
